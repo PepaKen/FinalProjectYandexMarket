@@ -9,6 +9,6 @@ To start this test suits you need:
 
 2. Download Selenium WebDriver from https://chromedriver.chromium.org/downloads (if you use GoogleChrome) and unarchive it
 
-3. Run tests the following command: python -m pytest -v --driver Chrome --driver-path ~/chromedriver tests/test_main_page.py
+3. Run tests the following command: (python3 or)python -m pytest -v --driver Chrome --driver-path ~/chromedriver tests/test_main_page.py
 
  '~' is absolutely path in your directory where is unarchived chromedriver is (example of full path: C:/chromedriver )
