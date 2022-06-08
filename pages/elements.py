@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 
 
-class WebElement(object):
+class WebElement:
 
     _locator = ('', '')
     _web_driver = None
